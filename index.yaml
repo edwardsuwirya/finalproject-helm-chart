@@ -3,6 +3,16 @@ entries:
   backend:
   - apiVersion: v2
     appVersion: "4"
+    created: "2023-10-05T14:14:54.653759+07:00"
+    description: A Helm chart for Golang Backend
+    digest: b3638997beaa07ed174c6d2aad56449143b4f4e941b2e71518a6d45da6fa327c
+    name: backend
+    type: application
+    urls:
+    - https://github.com/edwardsuwirya/finalproject-helm-chart/releases/download/backend-0.1.1/backend-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: "4"
     created: "2023-10-05T09:52:04.499902+07:00"
     description: A Helm chart for Golang Backend
     digest: f06b7e4cffbb7a5ef44a7b21dbfb60db13d21b7f30dce9cc817eee0245d71973
@@ -11,4 +21,15 @@ entries:
     urls:
     - https://github.com/edwardsuwirya/finalproject-helm-chart/releases/download/backend-0.1.0/backend-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-05T09:52:04.499912+07:00"
+  frontend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-05T14:14:54.989781+07:00"
+    description: A Helm chart for React Frontend
+    digest: 036c5b1be9ef11ee7eca85d358daf41672636f08c8090bb05ba36db2bde35245
+    name: frontend
+    type: application
+    urls:
+    - https://github.com/edwardsuwirya/finalproject-helm-chart/releases/download/frontend-0.1.0/frontend-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-10-05T14:14:54.98982+07:00"
