@@ -4,11 +4,11 @@
 
 replicaCount: 2
 
-name: my-golang
+name: my-react
 
 image:
-  repository: registry.digitalocean.com/enigmacamp/simple-go
-  tag: "4"
+  repository: registry.digitalocean.com/enigmacamp/simple-react
+  tag: "13"
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
@@ -18,7 +18,7 @@ service:
   protocol: TCP
   type: ClusterIP
   port: 80
-  targetPort: 8888
 
-config:
-  response: Yoyoyo
+apiUrl:
+  host: golang-service
+  port: "8888"
