@@ -17,7 +17,7 @@ imagePullSecrets:
 service:
   protocol: TCP
   type: ClusterIP
-  port: 80
+  port: 8888
   targetPort: 8888
 
 config:

@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: {{ .Release.Name }}-deployment
   annotations:
-    reloader.stakater.com/auto: 'true'
+    configmap.reloader.stakater.com/reload: "{{ .Release.Name }}-config"
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
